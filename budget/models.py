@@ -8,6 +8,10 @@ class Project(models.Model):
     budget = models.IntegerField()
 
 
+    def __str__(self):
+        return self.name
+
+
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
         super(Project, self).save(*args, **kwargs)
@@ -16,6 +20,9 @@ class Category(models.Model):
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
     name = models.CharField(max_length=50)
 
+    def __str__(self):
+        return self.name
+
 
 
 class Expense(models.Model):
@@ -23,3 +30,4 @@ class Expense(models.Model):
     title = models.CharField(max_length=100)
     amount = models.DecimalField(max_digits=8, decimal_places=2)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
+
