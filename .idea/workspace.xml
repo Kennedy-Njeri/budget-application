@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="676a5734-663c-4827-9781-621ad7dc52ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/budget/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/budget/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budget/templates/budget/project-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/budget/templates/budget/project-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/templates/budget/project-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/budget/templates/budget/project-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/budget/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="9" />
+          <entry key="html" value="10" />
           <entry key="js" value="1" />
           <entry key="md" value="1" />
           <entry key="py" value="15" />
@@ -33,7 +34,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="10" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="Python" value="15" />
@@ -44,7 +45,7 @@
           <entry key="css" value="559" />
           <entry key="html" value="1713" />
           <entry key="js" value="295" />
-          <entry key="py" value="913" />
+          <entry key="py" value="983" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -52,7 +53,7 @@
           <entry key="CSS" value="559" />
           <entry key="HTML" value="1713" />
           <entry key="JavaScript" value="295" />
-          <entry key="Python" value="913" />
+          <entry key="Python" value="983" />
         </counts>
       </usages-collector>
     </session>
@@ -71,22 +72,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/budget/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="397">
+              <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1557245293000" expanded="true" signature="123:128" ph="..." />
-                <marker date="1557245293000" expanded="true" signature="869:874" ph="..." />
-                <marker date="1557245293000" expanded="true" signature="1060:1065" ph="..." />
+                <marker date="1557263174000" expanded="true" signature="123:128" ph="..." />
+                <marker date="1557263174000" expanded="true" signature="869:874" ph="..." />
+                <marker date="1557263174000" expanded="true" signature="1060:1065" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/budget/templates/budget/project-detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
@@ -98,13 +99,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/budget/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="285">
+              <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
-                <marker date="1557243032000" expanded="true" signature="489:494" ph="..." />
-                <marker date="1557243032000" expanded="true" signature="1767:1772" ph="..." />
+                <marker date="1557262951000" expanded="true" signature="530:535" ph="..." />
+                <marker date="1557262951000" expanded="true" signature="1840:1845" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/budget/templates/budget/project-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -130,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/budget/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="-293">
               <caret line="2" column="83" lean-forward="true" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
             </state>
           </provider>
@@ -147,7 +157,6 @@
         <option value="$PROJECT_DIR$/pages/apps.py" />
         <option value="$PROJECT_DIR$/budgetproject/settings.py" />
         <option value="$PROJECT_DIR$/budgetproject/urls.py" />
-        <option value="$PROJECT_DIR$/budget/templates/budget/project-list.html" />
         <option value="$PROJECT_DIR$/budget/admin.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/budget/urls.py" />
@@ -156,9 +165,10 @@
         <option value="$PROJECT_DIR$/budget/static/js/script.js" />
         <option value="$PROJECT_DIR$/budget/templates/budget/base.html" />
         <option value="$PROJECT_DIR$/budget/forms.py" />
-        <option value="$PROJECT_DIR$/budget/views.py" />
-        <option value="$PROJECT_DIR$/budget/models.py" />
         <option value="$PROJECT_DIR$/budget/templates/budget/project-detail.html" />
+        <option value="$PROJECT_DIR$/budget/views.py" />
+        <option value="$PROJECT_DIR$/budget/templates/budget/project-list.html" />
+        <option value="$PROJECT_DIR$/budget/models.py" />
       </list>
     </option>
   </component>
@@ -169,8 +179,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="159" />
-    <option name="y" value="25" />
+    <option name="x" value="701" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="800" />
   </component>
@@ -267,7 +277,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="459" y="23" width="1400" height="800" extended-state="0" />
+    <frame x="511" y="43" width="1400" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
@@ -309,13 +319,6 @@
     <entry file="file://$PROJECT_DIR$/pages/apps.py" />
     <entry file="file://$PROJECT_DIR$/budget/templates/budget/project_detail.html" />
     <entry file="file://$PROJECT_DIR$/budget/templates/budget/project_list.html" />
-    <entry file="file://$PROJECT_DIR$/budget/templates/budget/project-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/budgetproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -357,13 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/budget/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="83" lean-forward="true" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/budget/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -374,6 +370,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/budget/templates/budget/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/budget/templates/budget/add-project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -381,10 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/budget/templates/budget/base.html">
+    <entry file="file://$PROJECT_DIR$/budget/static/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
+        <state relative-caret-position="-293">
+          <caret line="2" column="83" lean-forward="true" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -395,35 +398,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/budget/templates/budget/project-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/budget/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="285">
+          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
-            <marker date="1557243032000" expanded="true" signature="489:494" ph="..." />
-            <marker date="1557243032000" expanded="true" signature="1767:1772" ph="..." />
+            <marker date="1557262951000" expanded="true" signature="530:535" ph="..." />
+            <marker date="1557262951000" expanded="true" signature="1840:1845" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/budget/templates/budget/project-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/budget/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="397">
+          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1557245293000" expanded="true" signature="123:128" ph="..." />
-            <marker date="1557245293000" expanded="true" signature="869:874" ph="..." />
-            <marker date="1557245293000" expanded="true" signature="1060:1065" ph="..." />
+            <marker date="1557263174000" expanded="true" signature="123:128" ph="..." />
+            <marker date="1557263174000" expanded="true" signature="869:874" ph="..." />
+            <marker date="1557263174000" expanded="true" signature="1060:1065" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/budget/templates/budget/project-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
