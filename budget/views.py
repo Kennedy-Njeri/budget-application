@@ -8,7 +8,10 @@ from django.http import HttpResponseRedirect, HttpResponse
 
 from django.utils.text import slugify
 
-# Create your views here.
+
+
+
+
 
 def project_list(request):
     return render(request, 'budget/project-list.html')
