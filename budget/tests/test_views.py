@@ -29,3 +29,21 @@ class TestViews(TestCase):
 
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'budget/project-detail.html')
+
+
+    def test_project_detail_POST_adds_new_expense(self):
+        Category.objects.create(
+            project=self.project1,
+            name='development'
+        )
+
+        response = self.client.post(self.detail_url, {
+
+            'title': 'expense1',
+            'amount': '1000',
+            'category': 'development'
+
+        })
+
+        self.assertEquals(response.status_code, 302)
+        self.assertEquals(self.project1.expenses.first().title, 'expense1')

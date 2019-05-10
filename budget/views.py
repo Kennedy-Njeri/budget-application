@@ -49,7 +49,7 @@ def project_detail(request, project_slug):
         expense = get_object_or_404(Expense, id=id)
         expense.delete()
 
-        return HttpResponse('')
+        return HttpResponse(status=204)
 
     return HttpResponseRedirect(project_slug)
 
