@@ -49,7 +49,11 @@ class TestViews(TestCase):
         self.assertEquals(self.project1.expenses.first().title, 'expense1')
 
 
-    
+    def test_projects_detail_POST_no_data(self):
+        response = self.client.post(self.detail_url)
+
+        self.assertEquals(response.status_code, 302)
+        self.assertEquals(self.project1.expenses.count(), 0)
 
     def test_project_detail_DELETE_deletes_expense(self):
         category1 = Category.objects.create(
