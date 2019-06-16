@@ -73,5 +73,4 @@ class ProjectCreateView(CreateView):
 
         return HttpResponseRedirect(self.get_success_url())
 
-    def get_success_url(self):
-        return slugify(self.request.POST['name'])
+    
