@@ -52,6 +52,8 @@ def project_detail(request, project_slug):
     return HttpResponseRedirect(project_slug)
 
 
+
+
 class ProjectCreateView(CreateView):
     model = Project
     template_name = 'budget/add-project.html'
