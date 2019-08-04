@@ -33,13 +33,14 @@ class Project(models.Model):
         expense_list = Expense.objects.filter(project=self)
         return len(expense_list)
 
+
+
 class Category(models.Model):
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
     name = models.CharField(max_length=50)
 
     def __str__(self):
         return self.name
-
 
 
 class Expense(models.Model):
