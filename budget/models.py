@@ -10,10 +10,8 @@ class Project(models.Model):
     slug = models.SlugField(max_length=100, unique=True, blank=True)
     budget = models.IntegerField()
 
-
     def __str__(self):
         return self.name
-
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
