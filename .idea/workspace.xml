@@ -100,12 +100,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/budget/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="79">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
-                <marker date="1564951391000" expanded="true" signature="528:533" ph="..." />
-                <marker date="1564951391000" expanded="true" signature="1848:1853" ph="..." />
+                <marker date="1565036344000" expanded="true" signature="528:533" ph="..." />
+                <marker date="1565036344000" expanded="true" signature="1846:1851" ph="..." />
               </folding>
             </state>
           </provider>
@@ -449,12 +449,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/budget/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="79">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
-            <marker date="1564951391000" expanded="true" signature="528:533" ph="..." />
-            <marker date="1564951391000" expanded="true" signature="1848:1853" ph="..." />
+            <marker date="1565036344000" expanded="true" signature="528:533" ph="..." />
+            <marker date="1565036344000" expanded="true" signature="1846:1851" ph="..." />
           </folding>
         </state>
       </provider>
