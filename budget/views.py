@@ -18,6 +18,7 @@ def project_list(request):
     return render(request, 'budget/project-list.html', {'project_list': project_list})
 
 
+
 def project_detail(request, project_slug):
     project = get_object_or_404(Project, slug=project_slug)
     if request.method == 'GET':
@@ -25,7 +26,6 @@ def project_detail(request, project_slug):
         return render(request, 'budget/project-detail.html',
                       {'project': project, 'expense_list': project.expenses.all(), 'category_list': category_list})
 
-    
 
     elif request.method == 'POST':
         # process the form_valid
