@@ -25,6 +25,8 @@ def project_detail(request, project_slug):
         return render(request, 'budget/project-detail.html',
                       {'project': project, 'expense_list': project.expenses.all(), 'category_list': category_list})
 
+    
+
     elif request.method == 'POST':
         # process the form_valid
         form = ExpenseForm(request.POST)
