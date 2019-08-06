@@ -13,6 +13,8 @@ import json
 
 
 
+
+
 def project_list(request):
     project_list = Project.objects.all()
     return render(request, 'budget/project-list.html', {'project_list': project_list})
@@ -52,6 +54,7 @@ def project_detail(request, project_slug):
         return HttpResponse(status=204)
 
     return HttpResponseRedirect(project_slug)
+
 
 
 class ProjectCreateView(CreateView):
